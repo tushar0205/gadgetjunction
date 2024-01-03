@@ -1,0 +1,25 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 30 Dec 2023 00:50:59 at https://tusharm01.wixsite.com/gadgetjunction +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://tusharm01.wixsite.com/gadgetjunction -O1 "C:\My Web Sites\wix" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+00:52:24	Error: 	"Not Found" (404) at link https://tusharm01.wixsite.com/ (from https://tusharm01.wixsite.com/gadgetjunction)
+00:53:50	Warning: 	Retry after error -4 (No data (connection closed)) at link https://tusharm01.wixsite.com/gadgetjunction/drones-and-cameras (from https://tusharm01.wixsite.com/gadgetjunction)
+00:54:52	Error: 	"Not Found" (404) at link https://tusharm01.wixsite.com/media/emptystate.85a4add5.svg (from https://tusharm01.wixsite.com/gadgetjunction)
+00:55:03	Error: 	"Not Found" (404) at link https://tusharm01.wixsite.com/sitemap.xml (from https://tusharm01.wixsite.com/gadgetjunction)
+00:55:03	Error: 	"Not Found" (404) at link https://tusharm01.wixsite.com/feed.xml (from https://tusharm01.wixsite.com/gadgetjunction)
+00:55:03	Error: 	"Not Found" (404) at link https://tusharm01.wixsite.com/${n.uri} (from https://tusharm01.wixsite.com/gadgetjunction)
+00:55:03	Error: 	"Not Found" (404) at link https://tusharm01.wixsite.com/decodeURIComponent(e (from https://tusharm01.wixsite.com/gadgetjunction)
+00:55:03	Error: 	"Not Found" (404) at link https://tusharm01.wixsite.com/gadgetjunction/robots.txt (from https://tusharm01.wixsite.com/gadgetjunction/about)
+00:55:03	Error: 	"Not Found" (404) at link https://tusharm01.wixsite.com/gadgetjunction/feed.xml (from https://tusharm01.wixsite.com/gadgetjunction/about)
+00:55:03	Error: 	"Not Found" (404) at link https://tusharm01.wixsite.com/gadgetjunction/${n.uri} (from https://tusharm01.wixsite.com/gadgetjunction/about)
+00:55:03	Error: 	"Not Found" (404) at link https://tusharm01.wixsite.com/gadgetjunction/decodeURIComponent(e (from https://tusharm01.wixsite.com/gadgetjunction/about)
+00:56:19	Error: 	"Not Found" (404) at link https://tusharm01.wixsite.com/gadgetjunction/product-page/sitemap.xml (from https://tusharm01.wixsite.com/gadgetjunction/product-page/fitboot-inspire-fitness-tracker-with-heart-rate-tracking-1)
+00:56:19	Error: 	"Not Found" (404) at link https://tusharm01.wixsite.com/gadgetjunction/product-page/feed.xml (from https://tusharm01.wixsite.com/gadgetjunction/product-page/fitboot-inspire-fitness-tracker-with-heart-rate-tracking-1)
+00:56:26	Error: 	"Not Found" (404) at link https://tusharm01.wixsite.com/gadgetjunction/media/emptystate.85a4add5.svg (from https://tusharm01.wixsite.com/gadgetjunction/home)
+
+HTTrack Website Copier/3.49-2 mirror complete in 5 minutes 28 seconds : 295 links scanned, 280 files written (158146239 bytes overall) [53710875 bytes received at 163752 bytes/sec], 129140790 bytes transferred using HTTP compression in 112 files, ratio 18%, 2.6 requests per connection
+(13 errors, 1 warnings, 0 messages)

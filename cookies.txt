@@ -1,0 +1,11 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+tusharm01.wixsite.com	TRUE	/gadgetjunction/cart-page	FALSE	1999999999	TS015bf395	015b43050aa4ab1402fb1bc61dc3fce68efe25ec55f2ba267d24664bf58915d214466cb96bbfc258e5dbcb41c3ba5c74884e087b4f
+tusharm01.wixsite.com	TRUE	/gadgetjunction	FALSE	1999999999	svSession	640cb588674c0f735e6d1494a7cba31d426a759235b592943ba0ffdd07c27d4f425c7cb187752e17f53ca86f2877e7c31e60994d53964e647acf431e4f798bcd053ea0c74c27afbfe3d28877a2a18d6db30fdfb659a7ec8810946b544e4db0ee389a70ea42858c1161a12e0168f5abaa8b20be81beba29fb84843ce3859baf4096e8cab06377872c40c18002ca4cb185
+tusharm01.wixsite.com	TRUE	/gadgetjunction	FALSE	1999999999	TS012155ce	015b43050aa4ab1402fb1bc61dc3fce68efe25ec55f2ba267d24664bf58915d214466cb96bbfc258e5dbcb41c3ba5c74884e087b4f
+tusharm01.wixsite.com	TRUE	/	FALSE	1999999999	XSRF-TOKEN	1703877658|RIgWd15jukMv
+tusharm01.wixsite.com	TRUE	/	FALSE	1999999999	hs	-1301291122
+tusharm01.wixsite.com	TRUE	/	FALSE	1999999999	SameSite	None
+tusharm01.wixsite.com	TRUE	/	FALSE	1999999999	ssr-caching	cache#desc=hit#varnish=hit#dc#desc=sea1_g
+.wixsite.com	TRUE	/	FALSE	1999999999	TS016e3841	0127337542b089a6a796ed05486088a531caafd9a61fc2b122c825e344929375b55ff94089fe9bff671c7ddb2d1419ee6824bf3be0
+

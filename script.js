@@ -7,6 +7,7 @@ const searchForm = document.querySelector("[data-searchForm]");
 const loadingScreen = document.querySelector(".loading-container");
 const userInfoContainer = document.querySelector(".user-info-container");
 const errorInfo=document.querySelector('.error-container')
+const searchField=document.querySelector('.searchField')
 //initially vairables need????
 
 let oldTab = userTab;
@@ -45,6 +46,7 @@ userTab.addEventListener("click", () => {
 searchTab.addEventListener("click", () => {
     //pass clicked tab as input paramter
     switchTab(searchTab);
+    searchField.focus();
 });
 
 //check if cordinates are already present in session storage
@@ -144,7 +146,7 @@ const searchInput = document.querySelector("[data-searchInput]");
 
 searchForm.addEventListener("submit", (e) => {
     e.preventDefault();
-    let cityName = searchInput.value;
+    let cityName = searchInput.value.trimEnd();
     if(cityName === "")
         return;
     else 

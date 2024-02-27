@@ -1,1 +1,275 @@
 
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+:root{
+    --colorDark1:#112D4E;
+    --colorDark2:#3F72AF;
+    --colorLight1:#DBE2EF;
+    --colorLight2:#F9F7F7;
+}
+
+.wrapper{
+
+    width: 100vw;
+    height: 100vh;
+    color: var(--colorLight2);
+    background-image: linear-gradient(160deg,#112d4e,var(--colorDark2));
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+  padding-top: 0.75rem;
+}
+
+.tab-container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+    max-width: 550px;
+
+}
+
+.tab{
+    cursor: pointer;
+    font-size: 0.875rem;
+    letter-spacing: 1.75px;
+    padding: 5px 8px
+}
+.current-tab{
+    background-color:rgba(219, 226, 239, 0.5) ;
+    border-radius: 5px;
+}
+
+.weather-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-block: 3rem;
+}
+
+.btn{
+    all: unset;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-color: var(--colorDark2);
+ cursor: pointer;
+    padding: 0.30rem 1rem;
+    margin-bottom: 10px;
+}
+.sub-container{
+    display: flex;;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grant-location-container{
+    display: none;
+}
+
+.grant-location-container.active{
+    display: flex;;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grant-location-container img{
+    margin-bottom: 2rem;
+}
+.grant-location-container p:first-of-type{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.grant-location-container p:last-of-type{
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+    margin-top: 0.45rem;
+    letter-spacing: 0.75px;
+}
+
+.loading-container{
+    display: none;
+}
+.loading-container.active{
+    display: flex;
+}
+
+.loading-container{
+    text-transform: uppercase;
+}
+
+.user-info-container{
+/* display: none; */
+}
+
+.user-info-container.active{
+    display: flex;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    gap: 0 0.5rem;
+    margin-bottom: 1rem;
+}
+.user-info-container img{
+    width: 5rem;
+}
+.name img{
+    width: 1.60rem;
+}
+.name p{
+    font-size: 1.80rem;
+}
+
+[data-weatherDesc]{
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+[ data-temp]{
+    font-size: 2.75rem;
+    font-weight: 700;
+}
+
+.parameter-container{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 2rem;
+gap: 10px 20px;
+flex-wrap: wrap;
+}
+
+.parameter{
+    width: 30%;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: ;
+    background-color:rgba(219, 226, 239, 0.2) ;
+    border-radius: 0.80rem;
+    padding: 1rem;
+    gap: 5px 0;
+    align-items: center;
+
+}
+.parameter img{
+    width: 60px;
+    height: 60px;
+}
+.parameter p:first-of-type{
+    font-size: 1.15rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.parameter p:last-of-type{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.form-container{
+    display: none;
+    width: 100%;
+    max-width: 550px;
+    margin-bottom: 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0 1rem;
+}
+
+
+.form-container.active{
+    display: flex;
+}
+.form-container input{
+    all: unset;
+    width: 400px;
+    height: 40px;
+    padding: 0  20px;
+    background-color: rgba(219, 226, 239, 0.3);
+    border-radius: 0.5rem;
+}
+.form-container ::placeholder{
+    color: var(--colorLight2);
+}
+
+.form-container input:focus{
+    outline: 2px solid rgba(255, 255, 255, 0.7);
+    outline-offset: -2px;
+}
+.form-container .btn{
+    padding: unset;
+    width: 2.2rem;
+    height: auto;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.35rem;
+    
+    
+}
+.form-container img{
+    width: 2.2rem;
+    height: auto;
+   
+}
+
+
+
+
+
+
+
+
+/* For screens smaller than 768px (e.g., smartphones) */
+@media only screen and (max-width: 768px) {
+    
+    .tab {
+        padding: 10px 20px;
+    }
+    .weather-container {
+        margin-block: 2rem;
+    }
+    .parameter {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .form-container input {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+/* For screens larger than 768px (e.g., tablets and desktops) */
+@media only screen and (min-width: 768px) {
+    .wrapper {
+        padding: 0 20px;
+    }
+    .tab-container {
+        margin-top: 4rem;
+    }
+    .weather-container {
+        margin-block: 3rem;
+    }
+    .parameter-container {
+        max-width: 100%;
+    }
+    .parameter {
+        width: 30%;
+        max-width: 200px;
+    }
+    .form-container {
+        margin-bottom: 2rem;
+    }
+}

@@ -1,10 +1,11 @@
-
 *,::after,::before{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    font-family: "Kode Mono", monospace;
 }
+
 
 :root{
     --colorDark1:#112D4E;
@@ -32,15 +33,16 @@ h1{
     justify-content: space-between;
     align-items: center;
     margin-top: 4rem;
-    max-width: 550px;
+    max-width: 450px;
 
 }
 
 .tab{
     cursor: pointer;
-    font-size: 0.875rem;
+    font-size: 0.9rem;
     letter-spacing: 1.75px;
-    padding: 5px 8px
+    padding: 5px 8px;
+    font-weight: 700;
 }
 .current-tab{
     background-color:rgba(219, 226, 239, 0.5) ;
@@ -108,7 +110,7 @@ h1{
 }
 
 .user-info-container{
-/* display: none; */
+display: none;
 }
 
 .user-info-container.active{
@@ -142,20 +144,19 @@ h1{
 }
 
 .parameter-container{
+width: 400px;
 display: flex;
-justify-content: center;
+justify-content: space-around;
 align-items: center;
 margin-top: 2rem;
-gap: 10px 20px;
+gap: 20px;
 flex-wrap: wrap;
 }
 
 .parameter{
-    width: 30%;
     max-width: 200px;
     display: flex;
     flex-direction: column;
-    background-color: ;
     background-color:rgba(219, 226, 239, 0.2) ;
     border-radius: 0.80rem;
     padding: 1rem;
@@ -224,9 +225,18 @@ flex-wrap: wrap;
     height: auto;
    
 }
+.error-container{
+    display: none;
+}
+.error-container img{
+    width: 35rem;
+    height: auto;
+   
+}
 
-
-
+.error-container.active{
+    display: flex; 
+}
 
 
 
